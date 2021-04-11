@@ -1,19 +1,18 @@
 
 
-char msg[] ="ELECTRONICS DEMON SUBSCRIBE ";//t here.
-int scrollspeed=10;//Set the scroll speed ( lower=faster)
+char msg[] ="ELECTRONICS DEMON SUBSCRIBE ";
+int scrollspeed=10;
 
 int x;
 int y;
 
-//Columns
-int clockPin1 = 3; //Arduino pin connected to Clock Pin 11 of 74HC595
-int latchPin1 = 2; //Arduino pin connected to Latch Pin 12 of 74HC595
-int dataPin1 = 4;  //Arduino pin connected to Data Pin 14 of 74HC595
 
-//Rows
-int clockPin2 = 7; //Arduino pin connected to Clock Pin 11 of 74HC595
-int latchPin2 = 6; //Arduino pin connected to Latch Pin 12 of 74HC595
+int clockPin1 = 3; 
+int latchPin1 = 2; 
+int dataPin1 = 4;  
+
+int clockPin2 = 7; 
+int latchPin2 = 6; 
 int dataPin2 = 5;  //Arduino pin connected to Data Pin 14 of 74HC595
 
 //BITMAP
